@@ -1,6 +1,6 @@
 # myGainz 
 
-### **CMSI 2021** Web App Dev, Fall 2022, Project #4
+## **CMSI 2021** Web App Dev, Fall 2022, Project #4
 Lucian Prinz, Patrick King, Ryan Cordero, Maddie McDowell
 
 ## About

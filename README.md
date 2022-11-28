@@ -1,2 +1,4 @@
-# cmsi2021-myGainz
-Repository for CMSI 2021 Project #4
+# myGainz
+Project #4 | Web App Dev | Fall 2023 | Lucian Prinz, Patrick King, Maddie McDowell, Ryan Cordero
+
+

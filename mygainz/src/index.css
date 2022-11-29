@@ -12,5 +12,9 @@
   .btn-primary {
     @apply rounded-md p-2 bg-blue-500 text-white font-mono flex justify-center items-center gap-2;
   }
+
+  .page-header {
+    @apply text-4xl font-bold text-gray-800
+  }
 }
 

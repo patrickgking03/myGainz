@@ -4,7 +4,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Root from "./pages/root";
+import Root from './pages/root';
+import Home from './pages/home';
+import Programs from './pages/programs';
+import Progress from './pages/progress';
 import Excercises from './pages/excercises';
 
 const router = createBrowserRouter([
@@ -13,16 +16,20 @@ const router = createBrowserRouter([
     element: <Root />,
     children: [
       {
+        path: "/",
+        element: <Home />
+      },
+      {
         path: "excercises",
         element: <Excercises />
       },
       {
         path: "programs",
-        element: <h1>Programs</h1>
+        element: <Programs />
       },
       {
         path: "progress",
-        element: <h1>Progress</h1>
+        element: <Progress />
       }
     ]
   }

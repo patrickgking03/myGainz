@@ -8,6 +8,14 @@
     "target": "abs"
   },
   {
+    "bodyPart": "glutes",
+    "equipment": "barbell",
+    "gifUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/barbell-hip-thrust.gif",
+    "id": "1400",
+    "name": "barbell hip thrusts",
+    "target": "glutes"
+  },
+  {
     "bodyPart": "waist",
     "equipment": "body weight",
     "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0002.gif",

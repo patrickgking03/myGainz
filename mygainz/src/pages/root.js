@@ -17,7 +17,7 @@ export default function Root() {
     {
       name: 'Progress',
       path: 'progress'
-    },
+    }
   ];
 
   return (

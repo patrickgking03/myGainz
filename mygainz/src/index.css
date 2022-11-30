@@ -6,15 +6,23 @@
   body {
     @apply bg-slate-50;
   }
+
+  img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
 }
 
 @layer components {
   .btn-primary {
-    @apply rounded-md p-2 bg-blue-500 text-white font-mono flex justify-center items-center gap-2;
+    @apply w-32 md:w-40 rounded-md p-2 bg-blue-500 text-white font-mono flex justify-center items-center gap-2;
   }
 
   .page-header {
-    @apply text-4xl font-bold text-gray-800;
+    @apply select-none text-3xl font-bold text-gray-800;
   }
 
   /* For Webkit-based browsers (Chrome, Safari and Opera) */

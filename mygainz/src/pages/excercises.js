@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import excercises from '../data/excercises.json';
+import ExcerciseCard from '../components/excerciseCard';
 import { RxDoubleArrowRight, RxDoubleArrowLeft } from 'react-icons/rx';
 
 export default function Excercises() {
@@ -20,12 +21,9 @@ export default function Excercises() {
     <div className="flex flex-col gap-y-8">
       <h1 className="page-header">Excercises</h1>
       <div className="w-full grid place-items-center">
-        <header className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 max-h-[calc(100vh-5rem)]">
+        <header className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-12 gap-y-8 max-h-[calc(100vh-5rem)]">
           {excercises.slice(page, page + 8).map(excercise => {
-            return <div key={excercise.id} className="space-y-4">
-              <p className="text-gray-500 font-mono capitalize font-medium truncate text-lg">{excercise.name}</p>
-              <img src={excercise.gifUrl} alt="gif" className="rounded-lg bg-white border-2 border-slate-200" />
-            </div>;
+            return <ExcerciseCard key={excercise.id} excercise={excercise}/>;
           })}
           <button className="btn-primary" onClick={prevPage}><RxDoubleArrowLeft />Prev</button>
           <button className="btn-primary lg:col-start-4" onClick={nextPage}>Next<RxDoubleArrowRight /></button>

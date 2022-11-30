@@ -1,5 +1,5 @@
 export default function ExcerciseCard({ excercise }) {
-  return <div>
+  return <div className="w-80 md:w-full">
     <p className="text-gray-500 font-sans capitalize font-medium truncate text-md">{excercise.name}</p>
     <p className="text-gray-400 font-sans capitalize font-regular truncate text-md">{excercise.equipment}</p>
     <p className="text-gray-400 font-sans capitalize font-regular truncate text-md mb-4">Target Muscle: <span className="text-red-600">{excercise.target}</span></p>

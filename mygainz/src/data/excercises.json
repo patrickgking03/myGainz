@@ -9,6 +9,15 @@
   },
   {
     "bodyPart": "glutes",
+    "equipment": "cable",
+    "gifUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/cable-kickback.gif",
+    "id": "1401",
+    "name": "cable kickbacks",
+    "target": "glutes"
+  },
+
+  {
+    "bodyPart": "glutes",
     "equipment": "barbell",
     "gifUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2022/09/barbell-hip-thrust.gif",
     "id": "1400",

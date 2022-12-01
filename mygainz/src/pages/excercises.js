@@ -32,7 +32,7 @@ export default function Excercises() {
   }, [search]);
 
   return (
-    <div className="flex h-full flex-col space-y-12">
+    <div className="flex h-full flex-col space-y-8">
       <div className="flex justify-between items-center">
         <h1 className="page-header">Excercises <span className="page-header text-gray-500">(Page {page + 1})</span></h1>
         <h2 className="page-header text-gray-400">{excercises.length} Results</h2>

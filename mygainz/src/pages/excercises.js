@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import excerciseData from '../data/excercises.json';
-import ExcerciseCard from '../components/excerciseCard';
+import ExcerciseCard from '../components/ExcerciseCard';
 import { RxDoubleArrowRight, RxDoubleArrowLeft } from 'react-icons/rx';
 import { IoSearch } from 'react-icons/io5';
 

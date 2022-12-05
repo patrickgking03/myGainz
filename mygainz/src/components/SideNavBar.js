@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function SideNavBar({ navLinks }) {
   return <>
-    <div id="sidebar" className="w-48 md:w-64 items-center border-r-2 bg-slate-100 h-full">
+    <div id="sidebar" className="hidden sm:inline w-48 md:w-64 items-center border-r-2 bg-slate-100 h-full">
       <div className="bg-gray-100 w-full h-20 grid place-content-center border-b-2">
         <h1 className="font-bold text-3xl text-blue-600 select-none">myGainz</h1>
       </div>

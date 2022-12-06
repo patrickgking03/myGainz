@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Push Pull Legs",
+    "day1": "Chest, Triceps, Shoulders",
+    "day2": "Back, Biceps",
+    "day3": "Legs",
+    "day4": "Chest, Triceps, Shoulders",
+    "day5": "Back, Biceps",
+    "day6": "Legs",
+    "day7": "Rest"
+  },
+  {
+    "name": "ARNOLD",
+    "day1": "Chest, Back",
+    "day2": "Triceps, Biceps, Shoulders",
+    "day3": "Legs",
+    "day4": "Chest, Back",
+    "day5": "Triceps, Biceps, Shoulders",
+    "day6": "Legs",
+    "day7": "Rest"
+  },
+  {
+    "name": "Powerlifting Split",
+    "day1": "Chest, Back, Legs",
+    "day2": "Rest",
+    "day3": "Chest, Back, Legs",
+    "day4": "Rest",
+    "day5": "Chest, Back Legs",
+    "day6": "Rest",
+    "day7": "Rest"
+  }
+]

@@ -10625,6 +10625,14 @@
     "target": "forearms"
   },
   {
+    "bodyPart": "glutes",
+    "equipment": "barbell",
+    "gifUrl": "https://gymvisual.com/img/p/2/3/4/6/9/23469.gif",
+    "id": "1402",
+    "name": "barbell KAS glute bridges",
+    "target": "glutes"
+  },
+  {
     "bodyPart": "lower arms",
     "equipment": "weighted",
     "gifUrl": "http://d205bpvrqc9yn1.cloudfront.net/0859.gif",

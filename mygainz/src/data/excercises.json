@@ -9,6 +9,15 @@
   },
   {
     "bodyPart": "glutes",
+    "equipment": "roman chair",
+    "gifUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2022/05/back-extension.gif",
+    "id": "1405",
+    "name": "back/hyper extensions",
+    "target": "back and glutes"
+  },
+
+  {
+    "bodyPart": "glutes",
     "equipment": "cable",
     "gifUrl": "https://www.inspireusafoundation.org/wp-content/uploads/2022/01/cable-kickback.gif",
     "id": "1401",

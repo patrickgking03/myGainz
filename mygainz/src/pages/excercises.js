@@ -53,7 +53,7 @@ export default function Excercises() {
         <IoSearch className="fill-gray-400 ml-2" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 overflow-scroll scrollbar-hide h-full">
-        {excercises.slice(page, page + 12).map((excercise) => {
+        {excercises.slice(page * 12, (page + 1) * 12).map((excercise) => {
           return <ExcerciseCard key={excercise.id} excercise={excercise} />;
         })}
       </div>

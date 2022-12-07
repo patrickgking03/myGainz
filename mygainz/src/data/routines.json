@@ -45,5 +45,99 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Push Pull Legs",
+    "days": [
+      {
+        "name": "Chest, Triceps, Shoulders",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Back, Biceps",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Legs",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Chest, Triceps, Shoulders",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Back, Biceps",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Legs",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Rest",
+        "excercises": [
+          "0001"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Push Pull Legs",
+    "days": [
+      {
+        "name": "Chest, Triceps, Shoulders",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Back, Biceps",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Legs",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Chest, Triceps, Shoulders",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Back, Biceps",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Legs",
+        "excercises": [
+          "0001"
+        ]
+      },
+      {
+        "name": "Rest",
+        "excercises": [
+          "0001"
+        ]
+      }
+    ]
   }
 ]

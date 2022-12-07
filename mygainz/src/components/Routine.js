@@ -1,6 +1,6 @@
 export default function Routine({ routine }) {
   return (
-    <div class=" md:w-full bg-gray-200 p-4 rounded-lg outline outline-2 outline-slate-400 py-3">
+    <div class=" md:w-full bg-gray-200 p-4 rounded-lg outline outline-2 outline-slate-400 py-3  overflow-scroll scrollbar-hide ">
       <p class="text-gray-900 font-sans capitalize font-medium truncate text-md"></p>
       <p class="text-gray-400 font-sans capitalize font-regular truncate text-md"></p>
       {routine.name}

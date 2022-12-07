@@ -9,6 +9,7 @@ export default function Programs() {
       <br></br>
       <Routine routine={routines[0]} />
       <Routine routine={routines[1]} />
+      <Routine routine={routines[2]} />
     </>
   );
 }

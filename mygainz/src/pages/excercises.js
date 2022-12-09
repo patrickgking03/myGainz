@@ -22,6 +22,7 @@ export default function Excercises() {
 
   useEffect(() => {
     const waitForTyping = setTimeout(() => {
+      setPage(0);
       setExcercises(
         excerciseData.filter((excercise) => {
           const toCheck = `${excercise.name} ${excercise.equipment} ${excercise.target}`;

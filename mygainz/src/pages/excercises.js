@@ -11,7 +11,7 @@ export default function Excercises() {
   const [excercises, setExcercises] = useState(excerciseData);
 
   const nextPage = () => {
-    if (page === 165) return;
+    if (page === 12) return;
     setPage(page + 1);
   };
 

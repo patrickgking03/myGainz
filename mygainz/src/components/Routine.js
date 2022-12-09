@@ -4,7 +4,7 @@ export default function Routine({ routine }) {
       <h2 className="text-xl text-gray-700 font-medium">{routine.name}</h2>
       <div className="flex flex-wrap text-center items-center w-full gap-6">
         {routine.days.map(day => (
-          <button className="text-sm rounded-md flex-grow text-white bg-blue-500 p-4 hover:outline outline-2 outline-offset-1 outline-blue-500">
+          <button className="text-sm w-48 h-14 rounded-md flex-grow text-white bg-blue-500 p-4 hover:outline outline-2 outline-offset-1 outline-blue-500 flex items-center justify-center">
             Day {routine.days.indexOf(day) + 1}: {day.name}
           </button>
         ))}

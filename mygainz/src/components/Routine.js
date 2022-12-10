@@ -1,7 +1,7 @@
 export default function Routine({ routine, toggleModal, setCurrentDay }) {
 
   return <>
-    <div className="bg-gray-100 p-8 rounded-lg border border-gray-200 scrollbar-hide space-y-6">
+    <div className="bg-gray-100 p-6 rounded-lg border border-gray-200 scrollbar-hide space-y-6">
       <div className="flex justify-between items-center">
         <h2 className="text-2xl text-gray-700 font-medium">{routine.name}</h2>
         <h2 className="text xl text-gray-500 font-normal">{routine.days.filter(({ name }) => name.toLowerCase() != 'rest').length} day split</h2>

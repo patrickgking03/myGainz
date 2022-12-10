@@ -36,7 +36,7 @@ export default function Excercises() {
 
   return (
     <div className="flex h-full flex-col space-y-6">
-      <div>
+      <div className="space-y-1">
         <h1 className="page-header">Excercises</h1>
         <h2 className="page-header text-gray-400 text-lg">
           <span className="page-header text-gray-500 text-lg">
@@ -53,7 +53,7 @@ export default function Excercises() {
         />
         <IoSearch className="fill-gray-400 ml-2" />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 overflow-scroll scrollbar-hide h-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 overflow-scroll scrollbar-hide h-full">
         {excercises.slice(page * 12, (page + 1) * 12).map((excercise) => {
           return <ExcerciseCard key={excercise.id} excercise={excercise} />;
         })}

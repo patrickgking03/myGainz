@@ -14,7 +14,11 @@ export default function Programs() {
 
   return <>
     <div className="flex h-full flex-col space-y-6">
-      <h1 className="page-header">Programs</h1>
+      <div className="space-y-1">
+        <h1 className="page-header">Programs</h1>
+        <h2 className="page-header text-gray-500 text-lg">{routines.length} routines</h2>
+      </div>
+
       <div className="overflow-scroll scrollbar-hide h-full space-y-6">
         {routines.map(routine => (
           <Routine setCurrentDay={setCurrentDay} key={routines.indexOf(routine)} toggleModal={toggleModal} routine={routine} />

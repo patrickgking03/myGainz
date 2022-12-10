@@ -59,14 +59,14 @@ export default function Excercises() {
         })}
       </div>
       <div className="flex justify-between items-center">
-        <button className="btn-primary" onClick={prevPage}>
+        <button className="btn-animate btn-primary" onClick={prevPage}>
           <RxDoubleArrowLeft />
           Prev
         </button>
         <p className="text-gray-400 select-none hidden md:inline">
           Showing 12 per page
         </p>
-        <button className="btn-primary lg:col-start-4" onClick={nextPage}>
+        <button className="btn-primary btn-animate lg:col-start-4" onClick={nextPage}>
           Next
           <RxDoubleArrowRight />
         </button>

@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 export default function Programs() {
   const [showModal, setShowModal] = useState(false);
-  const [currentDay, setCurrentDay] = useState({})
+  const [currentDay, setCurrentDay] = useState({});
 
   const toggleModal = () => {
     setShowModal(!showModal);
@@ -21,6 +21,6 @@ export default function Programs() {
         ))}
       </div>
     </div >
-    {showModal && <RoutineModal currentDay={currentDay} toggleModal={toggleModal} />}
+    {showModal && <RoutineModal className="modal" currentDay={currentDay} toggleModal={toggleModal} />}
   </>;
 }

@@ -1,8 +1,24 @@
 import { NavLink } from 'react-router-dom';
+import { MdAccountCircle, MdLogout } from 'react-icons/md';
+import { InitiateSignIn, InitiateSignOut } from '../services/authService';
 
-export default function SideNavBar({ navLinks }) {
+export default function SideNavBar({ navLinks, user }) {
+  const SignIn = () => (
+    <button onClick={InitiateSignIn} className="flex gap-2 items-center">
+      <MdAccountCircle size={25} className="fill-blue-600" />
+      <h1 className="font-medium text-blue-600 text-lg">Sign In</h1>
+    </button>
+  );
+
+  const SignOut = () => (
+    <button onClick={InitiateSignOut} className="flex gap-2 items-center">
+      <MdLogout size={25} className="fill-blue-600" />
+      <h1 className="font-medium text-blue-600 text-lg">Sign Out</h1>
+    </button>
+  );
+
   return <>
-    <div id="sidebar" className="hidden sm:inline w-48 md:w-64 items-center border-r-2 bg-slate-100 h-full">
+    <div id="sidebar" className="hidden sm:flex pb-10 flex-col w-48 md:w-64 items-center border-r-2 bg-slate-100 h-full">
       <div className="bg-gray-100 w-full h-20 grid place-content-center border-b-2">
         <h1 className="font-bold text-3xl text-blue-600 select-none">myGainz</h1>
       </div>
@@ -21,6 +37,9 @@ export default function SideNavBar({ navLinks }) {
             </NavLink>
           ))
         }
+      </div>
+      <div className="mt-auto">
+        {!user ? <SignIn /> : <SignOut />}
       </div>
     </div>
   </>;

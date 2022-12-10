@@ -5,7 +5,7 @@ import { Slide } from "react-awesome-reveal";
 
 const RoutineModal = ({ toggleModal, currentDay }) => {
   return (
-    <div onClick={toggleModal} tabIndex="-1" className="z-50 p-4 absolute top-0 left-0 w-screen h-screen grid place-items-center bg-[rgba(0,0,0,0.5)]">
+    <div onClick={toggleModal} tabIndex="-1" className="z-50 p-12 absolute top-0 left-0 w-screen h-screen grid place-items-center bg-[rgba(0,0,0,0.5)]">
       <Slide direction="up" duration={750}>
         <div onClick={e => e.stopPropagation()} className="bg-white rounded-lg shadow max-w-6xl m-auto">
           <div className="flex items-start justify-between p-5 border-b rounded-t  ">

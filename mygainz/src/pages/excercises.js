@@ -39,10 +39,10 @@ export default function Excercises() {
       <div className="space-y-1">
         <h1 className="page-header">Excercises</h1>
         <h2 className="page-header text-gray-400 text-lg">
-          <span className="page-header text-gray-500 text-lg">
-            Page {page + 1}
+          <span className="page-header text-gray-500 text-lg font-medium">
+            Page {page + 1}/{Math.ceil(excercises.length / 12)}
           </span>{" "}
-          ({excercises.length} Results)
+          ({excercises.length} total results)
         </h2>
       </div>
       <div className="flex justify-end items-center relative rounded-lg border-2 bg-gray-100 border-gray-200 px-4 py-3 focus:outline-blue-500">

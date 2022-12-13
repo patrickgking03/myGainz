@@ -1,16 +1,13 @@
 import { FaRegTrashAlt } from 'react-icons/fa';
 import { updateDoc } from '@firebase/firestore';
 
-export default function Routine({ routines, routine, setRoutines, toggleModal, setCurrentDay, index, userRef, user }) {
-  const deleteRoutine = () => {
+export default function Routine({ routines, routine, setRoutines, toggleModal, setCurrentDay, setCurrentRoutine, userRef, user }) {
+  const deleteRoutine = async () => {
     routines = routines.filter(r => r != routine);
-    updateDoc(userRef, {
+    await updateDoc(userRef, {
       programs: routines
-    }).then(res => {
-      setRoutines(routines);
-    }).catch(err => {
-      console.log(err);
     });
+    setRoutines(routines);
   };
 
   return <>
@@ -30,6 +27,7 @@ export default function Routine({ routines, routine, setRoutines, toggleModal, s
             <button onClick={() => {
               toggleModal();
               setCurrentDay(day);
+              setCurrentRoutine(routine);
             }} className="text-sm h-14 w-full rounded-md text-white bg-blue-500 p-4 btn-animate flex items-center justify-center">
               {day.name}
             </button>

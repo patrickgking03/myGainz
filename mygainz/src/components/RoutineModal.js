@@ -21,7 +21,7 @@ const RoutineModal = ({ toggleModal, currentDay }) => {
             {currentDay.name == 'Rest' ? <h1>Enjoy your rest day!</h1> : currentDay.exercises.map(id => {
               const exercise = exercises.find(e => e.id == id);
               if (!exercise) return;
-              return <ExerciseCard key={id} exercise={exercise} />;
+              return <ExerciseCard key={id} exercise={exercise} inputs={true} />;
             })}
           </div>
           <div className="flex items-center p-5 space-x-2 border-t border-gray-200 rounded-b">

@@ -25,32 +25,34 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const exercises = require('./mygainz/src/data/exercises.json');
+const routines = require('./mygainz/src/data/routines.json');
 
-const collectionRef = db.collection('exercises');
+const collectionRef = db.collection('users').doc('vPg379qZpEhCLv0nyOr5ZjmJ4Q03').collection('programs');
 
-// async function test() {
-//   const snapshot = await collectionRef.get();
+async function test() {
+  const snapshot = await collectionRef.get();
 
-//   // Get the number of documents in the collection
-//   const numDocuments = snapshot.size;
-//   console.log(numDocuments);
-// }
+  const numDocuments = snapshot.size;
+  console.log(numDocuments);
 
-// test();
-
-exercises.forEach(function (obj) {
-  db.collection("exercises").add({
-    id: obj.id,
-    name: obj.name,
-    target: obj.target,
-    bodyPart: obj.bodyPart,
-    equipment: obj.equipment,
-    gifUrl: obj.gifUrl
-  }).then(function (docRef) {
+  collectionRef.add(routines[0]).then(function (docRef) {
     console.log("Document written with ID: ", docRef.id);
   })
     .catch(function (error) {
       console.error("Error adding document: ", error);
     });
-});
+
+
+  // routines.forEach(function (obj) {
+  //   collectionRef.add(routine).then(function (docRef) {
+  //     console.log("Document written with ID: ", docRef.id);
+  //   })
+  //     .catch(function (error) {
+  //       console.error("Error adding document: ", error);
+  //     });
+  // });
+
+  // collectionRef.add();
+}
+
+test();

@@ -1,9 +1,20 @@
 import { useState, useEffect } from "react";
 import { signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
-import { auth } from "./firebaseConfig";
+import { auth, db } from "./firebaseConfig";
+import { doc, setDoc } from "firebase/firestore";
 
-export function InitiateSignIn() {
-  return signInWithPopup(auth, new GoogleAuthProvider());
+export async function InitiateSignIn() {
+  try {
+    const { user } = await signInWithPopup(auth, new GoogleAuthProvider());
+    const data = {
+      name: user.displayName,
+      uid: user.uid
+    };
+    const res = await setDoc(doc(db, "users", data.uid), data);
+    console.log(res);
+  } catch (err) {
+    console.error(err);
+  }
 }
 
 export function InitiateSignOut() {

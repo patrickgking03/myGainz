@@ -2,12 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* * {
-  box-sizing: border-box;
-} */
-
 @layer base {
   body {
+    overscroll-behavior-y: none;
     @apply bg-slate-50;
   }
 

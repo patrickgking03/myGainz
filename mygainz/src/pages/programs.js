@@ -3,7 +3,7 @@ import RoutineModal from "../components/RoutineModal.js";
 import { useOutletContext } from "react-router-dom";
 import { db } from "../services/firebaseConfig";
 import { doc, setDoc, getDoc } from "firebase/firestore";
-import starterRoutines from "../data/routines.json";
+import starterRoutines from "../data/starter_routines.json";
 import { BsPlusLg } from 'react-icons/bs';
 import { MdAccountCircle } from 'react-icons/md';
 import { InitiateSignIn } from '../services/authService.js';

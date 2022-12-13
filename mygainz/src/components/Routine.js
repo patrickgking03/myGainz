@@ -1,9 +1,25 @@
-export default function Routine({ routine, toggleModal, setCurrentDay }) {
+import { FaRegTrashAlt } from 'react-icons/fa';
+import { updateDoc } from '@firebase/firestore';
+
+export default function Routine({ routines, routine, setRoutines, toggleModal, setCurrentDay, index, userRef, user }) {
+  const deleteRoutine = () => {
+    routines = routines.filter(r => r != routine);
+    updateDoc(userRef, {
+      programs: routines
+    }).then(res => {
+      setRoutines(routines);
+    }).catch(err => {
+      console.log(err);
+    });
+  };
 
   return <>
     <div className="bg-gray-100 p-6 rounded-lg border border-gray-200 scrollbar-hide space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl text-gray-700 font-medium">{routine.name}</h2>
+        <div className="flex gap-3 items-center">
+          <h2 className="text-2xl text-gray-700 font-medium">{routine.name}</h2>
+          {user && <button onClick={deleteRoutine} className="aspect-square rounded-lg p-1.5 bg-red-600 btn-animate"><FaRegTrashAlt color="white" /></button>}
+        </div>
         <h2 className="text xl text-gray-500 font-normal">{routine.days.filter(({ name }) => name.toLowerCase() != 'rest').length} day split</h2>
       </div>
       <div className="flex flex-col md:flex-row md:flex-wrap text-center w-full gap-6">

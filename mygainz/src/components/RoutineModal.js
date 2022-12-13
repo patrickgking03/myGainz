@@ -18,10 +18,10 @@ const RoutineModal = ({ toggleModal, currentDay }) => {
             </button>
           </div>
           <div className="max-h-[600px] overflow-scroll grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 scrollbar-hide justify-center items-center">
-            {currentDay.name == 'Rest' ? <h1>Enjoy your rest day!</h1> : currentDay.exercises.map(id => {
-              const exercise = exercises.find(e => e.id == id);
+            {currentDay.name == 'Rest' ? <h1>Enjoy your rest day!</h1> : currentDay.exercises.map(exerciseData => {
+              const exercise = exercises.find(e => e.id == exerciseData.id);
               if (!exercise) return;
-              return <ExerciseCard key={id} exercise={exercise} inputs={true} />;
+              return <ExerciseCard key={exerciseData.id} exercise={exercise} inputs={true} />;
             })}
           </div>
           <div className="flex items-center p-5 space-x-2 border-t border-gray-200 rounded-b">

@@ -19,7 +19,7 @@
 
 @layer components {
   .btn-primary {
-    @apply w-32 md:w-40 rounded-md p-2 bg-blue-500 text-white font-mono flex justify-center items-center gap-2;
+    @apply w-32 md:w-40 rounded-md p-2 bg-blue-500 text-white font-sans flex justify-center items-center gap-2;
   }
 
   .modal {
@@ -27,7 +27,7 @@
   }
 
   .btn-animate {
-    @apply transform transition duration-200 hover:scale-[102%] hover:brightness-125;
+    @apply transform transition duration-200 hover:scale-[102%] hover:brightness-[110%];
   }
 
   .page-header {

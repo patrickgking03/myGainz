@@ -1,17 +1,17 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import excerciseData from "../data/excercises.json";
-import ExcerciseCard from "../components/ExcerciseCard";
+import exerciseData from "../data/exercises.json";
+import ExerciseCard from "../components/ExerciseCard";
 import { RxDoubleArrowRight, RxDoubleArrowLeft } from "react-icons/rx";
 import { IoSearch } from "react-icons/io5";
 
-export default function Excercises() {
+export default function Exercises() {
   const [page, setPage] = useState(0);
   const [search, setSearch] = useState("");
-  const [excercises, setExcercises] = useState(excerciseData);
+  const [exercises, setExercises] = useState(exerciseData);
 
   const nextPage = () => {
-    if (((excercises.length - (excercises.length % 12)) <= page * 12)) return;
+    if (((exercises.length - (exercises.length % 12)) <= page * 12)) return;
     setPage(page + 1);
   };
 
@@ -23,9 +23,9 @@ export default function Excercises() {
   useEffect(() => {
     const waitForTyping = setTimeout(() => {
       setPage(0);
-      setExcercises(
-        excerciseData.filter((excercise) => {
-          const toCheck = `${excercise.name} ${excercise.equipment} ${excercise.target}`;
+      setExercises(
+        exerciseData.filter((exercise) => {
+          const toCheck = `${exercise.name} ${exercise.equipment} ${exercise.target}`;
           return toCheck.toLowerCase().includes(search.toLowerCase());
         })
       );
@@ -37,12 +37,12 @@ export default function Excercises() {
   return (
     <div className="flex h-full flex-col space-y-6">
       <div className="space-y-1">
-        <h1 className="page-header">Excercises</h1>
+        <h1 className="page-header">Exercises</h1>
         <h2 className="page-header text-gray-400 text-lg">
           <span className="page-header text-gray-500 text-lg font-medium">
-            Page {page + 1}/{Math.ceil(excercises.length / 12)}
+            Page {page + 1}/{Math.ceil(exercises.length / 12)}
           </span>{" "}
-          ({excercises.length} total results)
+          ({exercises.length} total results)
         </h2>
       </div>
       <div className="flex justify-end items-center relative rounded-lg border-2 bg-gray-100 border-gray-200 px-4 py-3 focus:outline-blue-500">
@@ -54,8 +54,8 @@ export default function Excercises() {
         <IoSearch className="fill-gray-400 ml-2" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-8 overflow-scroll scrollbar-hide h-full">
-        {excercises.slice(page * 12, (page + 1) * 12).map((excercise) => {
-          return <ExcerciseCard key={excercise.id} excercise={excercise} />;
+        {exercises.slice(page * 12, (page + 1) * 12).map((exercise) => {
+          return <ExerciseCard key={exercise.id} exercise={exercise} />;
         })}
       </div>
       <div className="flex justify-between items-center">

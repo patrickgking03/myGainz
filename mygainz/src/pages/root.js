@@ -15,8 +15,8 @@ export default function Root() {
       icon: <MdHome size={25} />
     },
     {
-      name: 'Excercises',
-      path: 'excercises',
+      name: 'Exercises',
+      path: 'exercises',
       icon: <FaDumbbell size={25} />
     },
     {
@@ -36,7 +36,7 @@ export default function Root() {
       <SideNavBar navLinks={navLinks} user={user} />
       <TopNavBar navLinks={navLinks} user={user} />
       <div id="detail" className="w-full h-[calc(100%-75px)] sm:h-full p-7 sm:p-12">
-        <Outlet context={user}/>
+        <Outlet context={user} />
       </div>
     </div>
   );

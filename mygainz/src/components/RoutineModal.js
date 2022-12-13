@@ -1,14 +1,14 @@
 import React from 'react';
-import excercises from '../data/excercises.json';
-import ExcerciseCard from './ExcerciseCard';
+import exercises from '../data/exercises.json';
+import ExerciseCard from './ExerciseCard';
 import { Slide } from "react-awesome-reveal";
 
 const RoutineModal = ({ toggleModal, currentDay }) => {
   return (
-    <div onClick={toggleModal} tabIndex="-1" className="z-50 p-12 absolute top-0 left-0 w-screen h-screen grid place-items-center bg-[rgba(0,0,0,0.5)]">
-      <Slide direction="up" duration={750}>
-        <div onClick={e => e.stopPropagation()} className="bg-white rounded-lg shadow max-w-6xl m-auto">
-          <div className="flex items-start justify-between p-5 border-b rounded-t  ">
+    <div onClick={toggleModal} tabIndex="-1" className="z-50 p-2 absolute top-0 left-0 w-screen h-screen grid place-items-center bg-[rgba(0,0,0,0.5)]">
+      <Slide direction="up" duration={750} className="w-5/6">
+        <div onClick={e => e.stopPropagation()} className="bg-white rounded-lg shadow flex flex-col justify-center">
+          <div className="flex justify-between p-5 border-b rounded-t">
             <h3 className="text-xl font-semibold text-gray-900">
               Day {currentDay.index}: {currentDay.name}
             </h3>
@@ -17,18 +17,17 @@ const RoutineModal = ({ toggleModal, currentDay }) => {
               <span className="sr-only">Close modal</span>
             </button>
           </div>
-          <div className="p-6 max-h-[600px] overflow-scroll overflow-x-hidden grid sm:grid-cols-2 lg:grid-cols-3 gap-4 scrollbar-hide justify-center">
-            {currentDay.name == 'Rest' ? <h1>Enjoy your rest day!</h1> : currentDay.excercises.map(id => {
-              const excercise = excercises.find(e => e.id == id);
-              if (!excercise) return;
-              return <ExcerciseCard key={id} excercise={excercise} />;
+          <div className="max-h-[600px] overflow-scroll grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4 scrollbar-hide justify-center items-center">
+            {currentDay.name == 'Rest' ? <h1>Enjoy your rest day!</h1> : currentDay.exercises.map(id => {
+              const exercise = exercises.find(e => e.id == id);
+              if (!exercise) return;
+              return <ExerciseCard key={id} exercise={exercise} />;
             })}
           </div>
           <div className="flex items-center p-5 space-x-2 border-t border-gray-200 rounded-b">
             <button onClick={toggleModal} type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:outline-nonefont-medium rounded-lg text-sm px-5 py-2.5 text-center">Save Routine</button>
             <button onClick={toggleModal} type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:outline-none rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10">Back</button>
           </div>
-          {/* </div> */}
         </div>
       </Slide>
     </div>

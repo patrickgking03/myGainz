@@ -4,7 +4,7 @@
     "days": [
       {
         "name": "Chest, Triceps, Shoulders",
-        "excercises": [
+        "exercises": [
           "1311",
           "0025",
           "0314",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Back, Biceps",
-        "excercises": [
+        "exercises": [
           "0416",
           "0198",
           "0031",
@@ -31,11 +31,11 @@
       },
       {
         "name": "Legs",
-        "excercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
+        "exercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
       },
       {
         "name": "Chest, Triceps, Shoulders",
-        "excercises": [
+        "exercises": [
           "1311",
           "0025",
           "0314",
@@ -49,7 +49,7 @@
       },
       {
         "name": "Back, Biceps",
-        "excercises": [
+        "exercises": [
           "0198",
           "0031",
           "0293",
@@ -63,9 +63,9 @@
       },
       {
         "name": "Legs",
-        "excercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
+        "exercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
       },
-      { "name": "Rest", "excercises": [] }
+      { "name": "Rest", "exercises": [] }
     ]
   },
   {
@@ -74,7 +74,7 @@
     "days": [
       {
         "name": "Chest, Back",
-        "excercises": [
+        "exercises": [
           "1311",
           "0651",
           "0314",
@@ -88,7 +88,7 @@
       },
       {
         "name": "Triceps, Biceps, Shoulders",
-        "excercises": [
+        "exercises": [
           "0416",
           "0405",
           "0313",
@@ -101,11 +101,11 @@
       },
       {
         "name": "Legs",
-        "excercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
+        "exercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
       },
       {
         "name": "Chest, Back",
-        "excercises": [
+        "exercises": [
           "1311",
           "0651",
           "0314",
@@ -119,7 +119,7 @@
       },
       {
         "name": "Triceps, Biceps, Shoulders",
-        "excercises": [
+        "exercises": [
           "0416",
           "0405",
           "0313",
@@ -132,9 +132,9 @@
       },
       {
         "name": "Legs",
-        "excercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
+        "exercises": ["0043", "0085", "0739", "0599", "0585", "0417"]
       },
-      { "name": "Rest", "excercises": [] }
+      { "name": "Rest", "exercises": [] }
     ]
   },
   {
@@ -142,31 +142,31 @@
     "days": [
       {
         "name": "Bench",
-        "excercises": ["1311", "1457", "0047", "1731"]
+        "exercises": ["1311", "1457", "0047", "1731"]
       },
       {
         "name": "Squat",
-        "excercises": ["0043", "0054", "0739", "0585", "0417"]
+        "exercises": ["0043", "0054", "0739", "0585", "0417"]
       },
       {
         "name": "Rest",
-        "excercises": [""]
+        "exercises": [""]
       },
       {
         "name": "Deadlift",
-        "excercises": ["0032", "0027", "0085", "0293", "1400", "0599"]
+        "exercises": ["0032", "0027", "0085", "0293", "1400", "0599"]
       },
       {
         "name": "Bench",
-        "excercises": ["1311", "1457", "0047", "1731"]
+        "exercises": ["1311", "1457", "0047", "1731"]
       },
       {
         "name": "Squat and Deadlift",
-        "excercises": ["0043", "0032", "0085", "0739", "0585", "0417"]
+        "exercises": ["0043", "0032", "0085", "0739", "0585", "0417"]
       },
       {
         "name": "Rest",
-        "excercises": [""]
+        "exercises": [""]
       }
     ]
   }

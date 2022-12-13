@@ -13,7 +13,7 @@
 
 // var db = firebase.firestore();
 
-// const excercises = require('./mygainz/src/data/excercises.json');
+// const exercises = require('./mygainz/src/data/exercises.json');
 
 var admin = require("firebase-admin");
 
@@ -25,9 +25,9 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
-const excercises = require('./mygainz/src/data/excercises.json');
+const exercises = require('./mygainz/src/data/exercises.json');
 
-const collectionRef = db.collection('excercises');
+const collectionRef = db.collection('exercises');
 
 // async function test() {
 //   const snapshot = await collectionRef.get();
@@ -39,8 +39,8 @@ const collectionRef = db.collection('excercises');
 
 // test();
 
-excercises.forEach(function (obj) {
-  db.collection("excercises").add({
+exercises.forEach(function (obj) {
+  db.collection("exercises").add({
     id: obj.id,
     name: obj.name,
     target: obj.target,

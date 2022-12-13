@@ -8,7 +8,7 @@ import Root from './pages/root';
 import Home from './pages/home';
 import Programs from './pages/programs';
 import Progress from './pages/progress';
-import Excercises from './pages/excercises';
+import Exercises from './pages/exercises';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +20,8 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "excercises",
-        element: <Excercises />
+        path: "exercises",
+        element: <Exercises />
       },
       {
         path: "programs",

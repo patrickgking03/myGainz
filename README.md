@@ -13,6 +13,17 @@
   ![Firestore](https://img.shields.io/badge/-Firestore-lightorange?logo=firestore&logoColor=white&style=flat)
   ![Tailwind](https://img.shields.io/badge/-Tailwind-blueviolet?logo=tailwind&logoColor=white&style=flat)
 
+</div>
+  
+## Table of Contents
+- [About](#about)
+- [Work Breakdown](#work-breakdown)
+- [User Needs](#user-needs)
+- [Technologies Used](#technologies-used)
+- [Challenges and Future Plans](#challenges-and-future-plans)
+- [Special Shoutout](#special-shoutout)
+- [Project Rundown & Presentation](#project-rundown-&-presentation)
+
 ## About
 Using an exercise API, we are creating a website app for tracking your progress in the gym and creating a program, called myGainz. This app will contain a workout routine using pre-existing workouts or custom workouts. You will be able to track weight/reps for each workout which saves as progress, notify friends if you hit a personal record, and able to lookup new workouts and be shown a gif of how to do it. This project was created for CMSI 2021 Website Application Development, Fall 2022, Homework #4.
 
@@ -32,8 +43,8 @@ Some challenges we had were setting up firebase to handle user-specific data, wh
 For myGainz web app, we would like to give a special thanks to Maddie McDowell's mom. She created the awesome logo for our web app that really tied together the visuals, css, & colors of it all.
 
 ## Project Rundown & Presentation:
-* Google Docs: https://docs.google.com/document/d/1zEuQRMm35yhWzDEQaDIE1fbfXsbD-Eu_G4W0cjcHVn8/edit?usp=sharing&resourcekey=0-_JtpEmCDCSLdlk72pwKKNg
-* Google Sheets: https://docs.google.com/presentation/d/1B-iUcsR9zvaeQsjn87xjfL-4Itl4W_KHx_gEGqvTJwg/edit#slide=id.g1b885cb552a_0_19
+- [Google Docs](https://docs.google.com/document/d/1zEuQRMm35yhWzDEQaDIE1fbfXsbD-Eu_G4W0cjcHVn8/edit?usp=sharing&resourcekey=0-_JtpEmCDCSLdlk72pwKKNg)
+- [Google Sheets](https://docs.google.com/presentation/d/1B-iUcsR9zvaeQsjn87xjfL-4Itl4W_KHx_gEGqvTJwg/edit#slide=id.g1b885cb552a_0_19)
 
 **Created By Lucian Prinz, Maddie McDowell, Ryan Cordero, & Patrick King** <br>
 **CMSI 2021: Website Application Development | Homework #4** <br>

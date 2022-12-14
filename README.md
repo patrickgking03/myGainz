@@ -1,5 +1,5 @@
 # ![image](https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true)
-### A workout app to create programs, track your progress, and much more in the gym!
+### A revolutionary workout website application!
 
 <div align="center">
   

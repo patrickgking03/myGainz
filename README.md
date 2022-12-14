@@ -15,5 +15,5 @@ For our frontend framework, we used React of course, and we used React Router to
 ## Challenges and Future Plans
 Some challenges we had were setting up firebase to handle user-specific data, which we solved by having a user collection which contains a personalized document for each user. Some future plans for “myGainz” might include adding a future plan program with charts and other stuff where you can visualize your project and allow users to create custom routines or splits, just making it more customizable. Maybe even a diet system of sorts that you can track or build yourself. Overall, after going through some challenges with myGainz the app looks great and the future looks promising for this web app.
 
-**Created By Lucian Prinz, Maddie McDowell, Ryan Cordero, & Patrick King**
+**Created By Lucian Prinz, Maddie McDowell, Ryan Cordero, & Patrick King** <br>
 **December 14, 2022**

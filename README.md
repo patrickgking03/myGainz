@@ -48,9 +48,13 @@ Some challenges we had were setting up firebase to handle user-specific data, wh
 For myGainz web app, we would like to give a special thanks to Maddie McDowell's mom. She created the awesome logo for our web app that really tied together the visuals, css, & colors of it all.
 #### ![image](https://gettinggrowth.com/wp-content/uploads/2020/10/how-to-get-free-instagram-shoutouts-2.png)
 
+<br>
+
 ## Project Rundown & Presentation:
 - [Google Docs](https://docs.google.com/document/d/1zEuQRMm35yhWzDEQaDIE1fbfXsbD-Eu_G4W0cjcHVn8/edit?usp=sharing&resourcekey=0-_JtpEmCDCSLdlk72pwKKNg)
 - [Google Sheets](https://docs.google.com/presentation/d/1B-iUcsR9zvaeQsjn87xjfL-4Itl4W_KHx_gEGqvTJwg/edit#slide=id.g1b885cb552a_0_19)
+
+<br>
 
 **Title:** Homework #4 - myGainz <br>
 **Department:** Computer Science <br>

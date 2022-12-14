@@ -1,5 +1,4 @@
 # ![image](https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true)
-### A revolutionary workout website application!
 
 <div align="center">
   

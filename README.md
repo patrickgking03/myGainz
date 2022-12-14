@@ -1,6 +1,6 @@
-# ![image](https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true)
-
 <div align="center">
+
+# ![image](https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true)
   
   ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=darkgrey&style=flat)
   ![HTML](https://img.shields.io/badge/-HTML-brightorange?logo=html&logoColor=white&style=flat)

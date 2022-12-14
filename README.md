@@ -15,6 +15,9 @@ For our frontend framework, we used React of course, and we used React Router to
 ## Challenges and Future Plans
 Some challenges we had were setting up firebase to handle user-specific data, which we solved by having a user collection which contains a personalized document for each user. Some future plans for “myGainz” might include adding a future plan program with charts and other stuff where you can visualize your project and allow users to create custom routines or splits, just making it more customizable. Maybe even a diet system of sorts that you can track or build yourself. Overall, after going through some challenges with myGainz the app looks great and the future looks promising for this web app.
 
+## Special Shoutout
+For myGainz web app, we would like to give a special thanks to Maddie McDowell's mom. She created the awesome logo for our web app that really tied together the visuals, css, & colors of it all.
+
 ## Project Rundown & Presentation:
 * Google Docs: https://docs.google.com/document/d/1zEuQRMm35yhWzDEQaDIE1fbfXsbD-Eu_G4W0cjcHVn8/edit?usp=sharing&resourcekey=0-_JtpEmCDCSLdlk72pwKKNg
 * Google Sheets: https://docs.google.com/presentation/d/1B-iUcsR9zvaeQsjn87xjfL-4Itl4W_KHx_gEGqvTJwg/edit#slide=id.g1b885cb552a_0_19

@@ -54,6 +54,6 @@ For myGainz web app, we would like to give a special thanks to Maddie McDowell's
 
 **Title:** Homework #4 - myGainz <br>
 **Department:** Computer Science <br>
+**Course:** CMSI 2021 Website Application Development <br>
 **Names:** Lucian Prinz, Maddie McDowell, Ryan Cordero, & Patrick King <br>
-**Date:** December 14, 2022 <br>
-**Course:** CMSI 2021 Website Application Development
+**Date:** December 14, 2022

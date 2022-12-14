@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { MdAccountCircle, MdLogout } from 'react-icons/md';
 import { InitiateSignIn, InitiateSignOut } from '../services/authService';
+import logo from '../logo.png';
 
 export default function SideNavBar({ navLinks, user }) {
   const SignIn = () => (
@@ -20,7 +21,7 @@ export default function SideNavBar({ navLinks, user }) {
   return <>
     <div id="sidebar" className="hidden sm:flex pb-10 flex-col w-48 md:w-64 items-center border-r-2 bg-slate-100 h-full">
       <div className="bg-gray-100 w-full h-20 grid place-content-center border-b-2">
-        <h1 className="font-bold text-3xl text-blue-600 select-none">myGainz</h1>
+        <h1 className="font-bold text-3xl text-blue-600 p-8 select-none grid place-items-center"><img  src={logo} /></h1>
       </div>
       <div className="py-8 px-6 flex flex-col text-center items-center w-full gap-6">
         {

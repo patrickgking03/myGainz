@@ -1,4 +1,4 @@
-# myGainz 
+# ![image] https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true myGainz 
 
 ## **CMSI 2021** Web App Dev, Fall 2022, Project #4
 Lucian Prinz, Patrick King, Ryan Cordero, Maddie McDowell

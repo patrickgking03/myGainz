@@ -1,4 +1,18 @@
 # ![image](https://github.com/patrickgking03/cmsi2021-myGainz/blob/main/mygainz/src/logo.png?raw=true)
+### A workout app to create programs, track your progress, and much more in the gym!
+
+<div align="center">
+  
+  ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=darkgrey&style=flat)
+  ![HTML](https://img.shields.io/badge/-HTML-brightorange?logo=html&logoColor=white&style=flat)
+  ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=grey&style=flat)
+  ![CSS](https://img.shields.io/badge/-CSS-lightblue?logo=css&logoColor=lightblue&style=flat)
+  ![React Router](https://img.shields.io/badge/-React%20Router-blue?logo=react-router&logoColor=darkgrey&style=flat)
+  ![ExerciseDB](https://img.shields.io/badge/-ExerciseDB-green?logo=api&logoColor=white&style=flat)
+  ![Type Fit](https://img.shields.io/badge/-Type%20Fit-lightgreen?logo=api&logoColor=white&style=flat)
+  ![Firebase](https://img.shields.io/badge/-Firebase-orange?logo=firebase&logoColor=white&style=flat)
+  ![Firestore](https://img.shields.io/badge/-Firestore-lightorange?logo=firestore&logoColor=white&style=flat)
+  ![Tailwind](https://img.shields.io/badge/-Tailwind-blueviolet?logo=tailwind&logoColor=white&style=flat)
 
 ## About
 Using an exercise API, we are creating a website app for tracking your progress in the gym and creating a program, called myGainz. This app will contain a workout routine using pre-existing workouts or custom workouts. You will be able to track weight/reps for each workout which saves as progress, notify friends if you hit a personal record, and able to lookup new workouts and be shown a gif of how to do it. This project was created for CMSI 2021 Website Application Development, Fall 2022, Homework #4.

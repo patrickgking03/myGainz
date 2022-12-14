@@ -20,5 +20,5 @@ Some challenges we had were setting up firebase to handle user-specific data, wh
 * Google Sheets: https://docs.google.com/presentation/d/1B-iUcsR9zvaeQsjn87xjfL-4Itl4W_KHx_gEGqvTJwg/edit#slide=id.g1b885cb552a_0_19
 
 **Created By Lucian Prinz, Maddie McDowell, Ryan Cordero, & Patrick King** <br>
-**CMSI 2021: Website Application Development | Homework #4 <br>
+**CMSI 2021: Website Application Development | Homework #4** <br>
 **December 14, 2022**

@@ -35,7 +35,7 @@ export default function Root() {
     <div className="flex flex-col sm:flex-row h-screen">
       <SideNavBar navLinks={navLinks} user={user} />
       <TopNavBar navLinks={navLinks} user={user} />
-      <div id="detail" className="w-full h-[calc(100%-75px)] sm:h-full p-7 sm:p-12">
+      <div id="detail" className="w-full h-[calc(100%-6rem)] sm:h-full p-7 sm:p-12">
         <Outlet context={user} />
       </div>
     </div>

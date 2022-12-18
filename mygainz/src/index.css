@@ -6,6 +6,7 @@
   body {
     overscroll-behavior-y: none;
     @apply bg-slate-50;
+    @apply scrollbar-hide;
   }
 
   img {
